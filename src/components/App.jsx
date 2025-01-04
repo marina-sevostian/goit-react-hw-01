@@ -5,6 +5,7 @@ import "./App.css";
 import Profile from "./Task-1/Profile";
 import userData from "../userData.json";
 import FriendList from "./Task-2/FriendList";
+import friends from "../friends.json";
 import TransactionHistory from "./Task-3/TransactionHistory";
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-      <FriendList />
+      <FriendList friends={friends} />
       <TransactionHistory />
     </>
   );
