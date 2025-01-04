@@ -1,4 +1,4 @@
-import {} from "./Profile.module.css";
+// import s from "./Profile.module.css";
 
 const Profile = ({
   name,
