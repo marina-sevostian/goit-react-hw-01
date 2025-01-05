@@ -1,5 +1,5 @@
 // import s from "./TransactionHistory.module.css";
-const TransactionHistory = (items) => {
+const TransactionHistory = ({ items }) => {
   return (
     <table>
       <thead>
@@ -11,7 +11,7 @@ const TransactionHistory = (items) => {
       </thead>
 
       <tbody>
-        {items.map((item) => (
+        {items.map(item => (
           <tr key={item.id}>
             <td>{item.type}</td>
             <td>{item.amount}</td>
