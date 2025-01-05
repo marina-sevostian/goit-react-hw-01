@@ -1,7 +1,7 @@
 import css from './TransactionHistory.module.css';
 const TransactionHistory = ({ items }) => {
   return (
-    <table className={css.tabe}>
+    <table className={css.table}>
       <thead>
         <tr>
           <th className={css.tableHead}>Type</th>

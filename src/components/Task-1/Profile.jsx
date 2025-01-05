@@ -11,7 +11,7 @@ const Profile = ({
     <div className={css.card}>
       <div className={css.cardWrapp}>
         <img className={css.image} src={image} alt="User avatar" />
-        <p className={css.fulname}>{name}</p>
+        <p className={css.fullname}>{name}</p>
         <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>
       </div>
