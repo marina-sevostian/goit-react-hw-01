@@ -1,9 +1,9 @@
 import './App.css';
-import Profile from './Task-1/Profile';
+import Profile from './Profile/Profile';
 import userData from '../userData.json';
-import FriendList from './Task-2/FriendList';
+import FriendList from './FriendList/FriendList';
 import friends from '../friends.json';
-import TransactionHistory from './Task-3/TransactionHistory';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
 import transactions from '../transactions.json';
 
 function App() {
